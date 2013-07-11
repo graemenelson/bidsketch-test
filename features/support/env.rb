@@ -12,6 +12,9 @@ require 'cucumber/rails/world'
 require 'cucumber/rails/active_record'
 require 'cucumber/web/tableish'
 
+require 'minitest/autorun'
+require 'minitest/spec'
+
 require 'capybara/rails'
 require 'capybara/cucumber'
 require 'capybara/session'
