@@ -1,5 +1,6 @@
 ENV["RAILS_ENV"] = "test"
 require File.expand_path(File.dirname(__FILE__) + "/../config/environment")
+require 'minitest/autorun'
 require 'test_help'
 
 class ActiveSupport::TestCase
