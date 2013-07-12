@@ -1,7 +1,8 @@
 class ProposalViewerController < ApplicationController
   
   def show
-    render :text => "Hello!"
+    proposal = FindProposalService.call params[:id]
+    render :text => ProposalRenderer.render( proposal )
   end
   
 end

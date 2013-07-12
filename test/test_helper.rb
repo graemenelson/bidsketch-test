@@ -1,7 +1,9 @@
 ENV["RAILS_ENV"] = "test"
+require_relative 'support/simplecov'
 require File.expand_path(File.dirname(__FILE__) + "/../config/environment")
 require 'minitest/autorun'
 require 'test_help'
+require 'nokogiri'
 
 class ActiveSupport::TestCase
   # Transactional fixtures accelerate your tests by wrapping each test method
