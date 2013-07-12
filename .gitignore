@@ -2,3 +2,4 @@
 .ruby-version
 /db/*.sqlite3
 /log/*
+/coverage/
